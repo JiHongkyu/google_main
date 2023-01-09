@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+}
+a {
+    text-decoration: none;
+    color: black
+}
+li {
+    list-style: none;
+}
+button {
+    font-size: 15px;
+    border: none;
+    background-color: #fff;
+    color: #1d1c1c;
+}
+
+/************ Header **********/
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header .header_1 {
+    font-size: 14px;
+    display: flex;
+    padding-left: 0;
+    margin-left: 20px;
+}
+.header .header_1 li {
+    padding: 8px 10px;
+}
+.header .header_2 {
+    font-size: 13px;
+    display: flex;
+}
+.header .header_2 li {
+    padding: 8px 10px;
+}
+
+/************ Main **********/
+.main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+.main .main_logo img{
+    width: 320px;
+    height: 100px;
+}
+.main .main_Frm form .main_search {
+    display: flex;
+    width: 550px; height: 45px;
+    flex-flow: row nowrap;
+    border: 1px solid #ddd;
+    border-radius: 25px;
+    padding-left: 5px;
+    justify-content: flex-start;
+    align-items: center;
+    box-shadow: 3px 3px 3px gray;
+}
+
+.main .main_Frm form .main_search li img {
+    padding: 10px;    
+    width: 20px; height: 20px;
+}
+.main .main_Frm form .main_search .search {    
+    font-size: 18px;
+    outline: none; border: none;
+    width: 470px; height: 30px;
+}
+.main_Frm form .btn {
+    display: flex;
+    flex: row nowrap;
+    justify-content: center;
+}
+.main_Frm form .btn li {
+    padding: 20px;
+}
+
+/********** Footer **********/
+.footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+.footer .korea {
+    display: block;
+    font-size: 17px;
+    border-bottom: 1px solid #aaa;
+    padding: 15px 45px;
+    background-color: #eee;
+    color: #686868;
+}
+.footer .btm {
+    display: flex;
+    flex-flow:row nowrap;
+    justify-content: space-between;
+    background-color: #eee;
+}
+.footer .btm ul {
+    display: flex;
+    margin-right: 10px;
+}
+.footer .btm ul li {
+    padding: 10px;
+    color: #686868;
+}
